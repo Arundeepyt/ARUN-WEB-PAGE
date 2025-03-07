@@ -1,1091 +1,154 @@
 <!DOCTYPE html>
-
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>arundeepsingh@gmail.com</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <title>Arun's Website</title>
 
+    <!-- Font Awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
-        crossorigin="anonymous"></script>
-</head>
-<style>
-    .container {
-        text-align: center;
-    }
 
-    .image-box {
-        display: inline-block;
-        width: 30%;
-        margin: 1%;
-        text-align: left;
-        position: relative;
-        z-index: 12;
-
-        color: red;
-    }
-
-    .image-box img {
-        width: 100%;
-        height: auto;
-
-    }
-
-    .image-box p {
-        position: absolute;
-        bottom: 10px;
-        left: 10px;
-        padding: 5px;
-        box-wrap: wrap;
-
-    }
-</style>
-</head>
-
-<body>
-
-    </head>
-    <!DOCTYPE html>
-    <html>
-
-    <head>
-        <div id="topheader">info@Arundeep.info</div>
-        <!DOCTYPE html>
-        <html lang="en">
-
-        <head>
-            <meta charset="UTF-8">
-            <meta name="viewport" content="width=device-width, initial-scale=1.0">
-            <title>Animated Welcome Page</title>
-            <!-- Bootstrap -->
-            <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
-            <!-- Font Awesome -->
-            <link rel="stylesheet"
-                href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-            <!-- Google Fonts -->
-            <link href="https://fonts.googleapis.com/css2?family=Single+Day&display=swap" rel="stylesheet">
-
-            <style>
-                /* General Reset */
-                * {
-                    margin: 0;
-                    padding: 0;
-                    box-sizing: border-box;
-                }
-
-                body {
-                    font-family: 'Single Day', cursive;
-                    text-align: center;
-                    background: linear-gradient(to right, #00e9a1, #ffa900, #ff0e69);
-                    color: #fff;
-                }
-
-                /* Welcome Animation */
-                .welcome-text {
-                    font-size: 3rem;
-                    margin-top: 50px;
-                    animation: fadeIn 2s ease-in-out, bounce 2s infinite;
-                }
-
-                @keyframes fadeIn {
-                    from {
-                        opacity: 0;
-                    }
-
-                    to {
-                        opacity: 1;
-                    }
-                }
-
-                @keyframes bounce {
-
-                    0%,
-                    100% {
-                        transform: translateY(0);
-                    }
-
-                    50% {
-                        transform: translateY(-20px);
-                    }
-                }
-
-                /* Navigation Bar */
-                .navbar {
-                    position: sticky;
-                    top: 0;
-                    background: #000;
-                    padding: 10px 0;
-                }
-
-                .navbar a {
-                    color: #fff;
-                    text-decoration: none;
-                    margin: 0 15px;
-                    font-size: 1.2rem;
-                    transition: color 0.3s;
-                }
-
-                .navbar a:hover {
-                    color: #ffa900;
-                }
-
-                /* Footer */
-                footer {
-                    background: #000;
-                    color: #fff;
-                    padding: 10px 0;
-                    margin-top: 50px;
-                }
-
-                /* Content Section */
-                .content {
-                    margin: 50px 20px;
-                }
-
-                .content img {
-                    width: 100%;
-                    max-width: 500px;
-                    border-radius: 10px;
-                    margin-top: 20px;
-                }
-            </style>
-        </head>
-
-    <body>
-        <!-- Navigation Bar -->
-        <div class="navbar">
-            <a href="#home">WEB UPDATES</a>
-
-
-            <a href="#services">Feedback</a>
-            <a href="#contact">Profit</a>
-            <nav class="navbar bg-body-tertiary fixed-top">
-                <div class="container-fluid">
-                    <a class="navbar-brand" href="#">Offcanvas navbar</a>
-                    <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
-                        data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar"
-                        aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
-                        aria-labelledby="offcanvasNavbarLabel">
-                        <div class="offcanvas-header">
-                            <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Offcanvas</h5>
-                            <button type="button" class="btn-close" data-bs-dismiss="offcanvas"
-                                aria-label="Close"></button>
-                        </div>
-                        <div class="offcanvas-body">
-                            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
-                                <li class="nav-item">
-                                    <a class="nav-link active" aria-current="page" href="#">Home</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="#">Link</a>
-                                </li>
-                                <li class="nav-item dropdown">
-                                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                                        aria-expanded="false">
-                                        Dropdown
-                                    </a>
-                                    <ul class="dropdown-menu">
-                                        <li><a class="dropdown-item" href="#">Action</a></li>
-                                        <li><a class="dropdown-item" href="#">Another action</a></li>
-                                        <li>
-                                            <hr class="dropdown-divider">
-                                        </li>
-                                        <li><a class="dropdown-item" href="#">Something else here</a></li>
-                                    </ul>
-                                </li>
-                            </ul>
-                            <form class="d-flex mt-3" role="search">
-                                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                                <button class="btn btn-outline-success" type="submit">Search</button>
-                            </form>
-                        </div>
-                    </div>
-                </div>
-            </nav>
-
-
-        </div>
-
-        <!-- Welcome Section -->
-        <h1 class="welcome-text">Welcome to Our website Your welcome here!</h1>
-
-
-
-
-
-
-    </body>
-
-    </html>
-
-
-    <ul id="header">
-        <li><a href=""><i class='fa fa-address-book'></i>&nbsp;Home</a></li>
-        <li><a href=""><i class='fa fa-user'></i>&nbsp;Profile</a></li>
-
-        <li><a href=""><i class='fa fa-envelope'></i>&nbsp;Message</a></li>
-        <li><a href=""><i class='fa-solid fa-address-book'></i>&nbsp;Contact</a></li>
-
-
-
-
-
-
-
-
-    </ul>
-
-    <title></title>
-
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Single+Day&display=swap" rel="stylesheet">
-
-    </head>
-
-    <body>
-        <p id="footer">WELCOME</p>
-
-        <img src="118.gif">
-
-
-
-
-        <h1>ABOUT US</h1>
-
-        i am owner of this web Hello! I'm [Arun], a curious learner with a passion for design and technology. I believe
-        in continuous growth and finding creative solutions to problems. I’ve been working on expanding my skills in
-        UI/UX design and want to make a meaningful impact in the tech world. This website is a reflection of my journey,
-        where I share my experiences, challenges, and what I’ve learned along the way. I hope my story resonates with
-        others who are on a similar path of growth and discovery
-
-
-
-
-
-
-
-        <p id="about"> <b> What Is Web Development</b>
-
-
-            <b style="color:darkblue;">
-
-                <h2>OUR SERVICES</h2>
-
-
-
-
-
-                <div class="container">
-                    <div class="image-box">
-                        <img src="445.gif" alt="Image 1">
-                        <p>“Even if I knew that tomorrow the world would go to pieces, I would still plant my apple
-                            tree.” ...</p>
-                    </div>
-                    <div class="image-box">
-                        <img src="166.gif" alt="Image 2">
-                        <p>There is nothing impossible to him who will try.” ....</p>
-                    </div>
-                    <div class="image-box">
-                        <img src="188.gif" alt="Image 3">
-                        <p>“Perfection is not attainable, but if we chase perfection, we can catch excellence.” ...</p>
-
-                    </div>
-                </div>
-
-
-    </body>
-
-</html>
-<!DOCTYPE html>
-<html>
-
-<head>
-    <title>Donation Counter</title>
-</head>
-
-<body>
-
-    <div id="count">
-        <p>OUR DONATION</p>
-        <h1 id="data"></h1>
-    </div>
-    <div class="row">
-        <div class="col-sm-6 mb-3 mb-sm-0">
-            <div class="card">
-                <div class="card-body">
-                    <h5 class="card-title">Special title treatment</h5>
-                    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                    <a href="#" class="btn btn-primary">Go somewhere</a>
-                </div>
-            </div>
-        </div>
-        <div class="col-sm-6">
-            <div class="card">
-                <div class="card-body">
-                    <h5 class="card-title">Special title treatment</h5>
-                    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                    <a href="#" class="btn btn-primary">Go somewhere</a>
-                </div>
-            </div>
-        </div>
-    </div>
-
-</body>
-
-</html>
-<script type="text/javascript">
-    let c = 0;
-
-    document.getElementById("data").innerText = c;
-
-    setInterval(fun, 60);
-
-    function fun() {
-        if (c < 500) {
-            c++;
-            document.getElementById("data").innerText = c;
-        }
-    }
-</script>
-
-<style type="text/css">
-    #count {
-        background-color: black;
-        color: blue;
-        width: 300px;
-        margin: 100px;
-        padding: 30px;
-        text-align: center;
-        text-shadow: white;
-        text-decoration: underline;
-
-        flex-wrap: wrap;
-    }
-
-    h1 {
-        text-decoration: underline;
-    }
-
-    h2 {
-        text-decoration: underlines;
-    }
-</style>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<h1>OUR LOCATION</h1>
-<iframe
-    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d107421.56789642954!2d74.77756262150848!3d32.71464725582805!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x391e84bf169d3525%3A0xf233488eeb8fd8d!2sJammu!5e0!3m2!1sen!2sin!4v1706782564096!5m2!1sen!2sin"
-    width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"
-    referrerpolicy="no-referrer-when-downgrade"></iframe>
-
-
-<iframe
-    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d241317.14571418945!2d72.71637348622276!3d19.082177512813335!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7c6306644edc1%3A0x5da4ed8f8d648c69!2sMumbai%2C%20Maharashtra!5e0!3m2!1sen!2sin!4v1708092751726!5m2!1sen!2sin"
-    width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"
-    referrerpolicy="no-referrer-when-downgrade"></iframe>
-
-<div id="footer">
-    FOLLOW US
-
-
-
-    <a target="blank" href="https://www.instagram.com/?hl=en/">
-        <i class="fa fa-instagram"></i>
-
-        <a target="blank" href=https://www.youtube.com />
-        <i class="fa fa-youtube"></i>
-
-        <a target="blank" href="https://www.snapchat.com/">
-            <i class="fa fa-snapchat"></i>
-
-
-
-
-
-
-
-
-            <div class="all">
-                <h3>About</h3>
-                <ul>
-                    <li><a href="">Company</a>
-                    <li><a href="">Employes</a>
-                    <li><a href="">Profit</a>
-                    <li><a href="">Loss</a>
-                    <li><a href="">Press</a>
-
-                </ul>
-            </div>
-
-            <div class="all">
-                <h3>Contact</h3>
-                <ul>
-                    <li><a href="">3444345</a>
-                    <li><a href="">434234</a>
-                    <li><a href="">r343245</a>
-                    <li><a href="">65786567</a>
-                    <li><a href="">434422</a>
-
-                </ul>
-            </div>
-            <div class="all">
-                <h3>Carrer</h3>
-                <ul>
-                    <li><a href="">IT</a>
-                    <li><a href="">ARTS</a>
-                    <li><a href="">Commerce</a>
-                    <li><a href="">Stories Writting</a>
-                    <li><a href=""></a>
-
-                </ul>
-            </div>
-            <div class="all">
-                <h3>Contact us</h3>
-                <ul>
-                    <li><a href="">Instragram</a>
-                    <li><a href="">Facebook</a>
-                    <li><a href="">TWitter</a>
-                    <li><a href="">Youtube</a>
-                    <li><a href=""></a>
-
-                </ul>
-            </div>
-</div>
-<div class="container">
-
-
-    <ul class="pagination  justify-content-center">
-        <li class="page-item"><a class="page-link" href="#">previous</a></li>
-        <li class="page-item"><a class="page-link active" href="https://www.youtube.com/?gl=IN">1</a></li>
-        <li class="page-item"><a class="page-link active" href="#">2</a></li>
-        <li class="page-item"><a class="page-link disabled" href="#">3</a></li>
-        <li class="page-item"><a class="page-link active" href="#">4</a></li>
-
-    </ul>
-
-    <h2>SKILLS</h2>
-
-    <b>1) HTML
-        2) CSS
-        3)JAVA SCRIPT
-        4)AI SOME BASIC
-        5) WEB DESING (figma)
-    </b>
-
-
-
-
-
-
-
-
-
-
-
-
-
-</div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<style type="text/css">
-    #footer {
-        background-color: black;
-        background-image: linear-gradient(to bottom, #206fd6, #006ab1, #005c7f, #004a4f, #00362c, #003e2a, #004625, #114d1c, #157526, #1ba02d, #27cd32, #3afc33);
-
-    }
-
-    .all {
-        background-color: black;
-        padding: 10px;
-        margin: 30px;
-        width: 10%;
-
-
-
-        /*                  text-align: center;*/
-        display: inline-block;
-
-
-
-
-    }
-
-    li {
-        list-style: none;
-        padding: 10px;
-    }
-
-    a {
-        color: white;
-        text-decoration: none;
-
-    }
-
-    h3 {
-        color: white;
-        margin-left: 10px;
-    }
-
-    i {
-        color: black;
-        transition: ALL;
-
-        to {
-            color: red;
-            transition: all 1sS;
-        }
-
-
-
-
-
-    }
-</style>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-</body>
-
-</html>
-
-<style type="text/css">
-    i {
-        font-size: 20px;
-        transition: all 1s;
-    }
-
-    i:hover {
-        transform: scale(2);
-        transform: rotate(180deg);
-</style>
-
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Search Bar</title>
     <style>
-        .search-bar {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            margin-top: 50px;
+        /* Modern animation when page loads */
+        body {
+            opacity: 0; /* Start hidden */
+            transition: opacity 1.5s ease-in-out;
+            background: linear-gradient(to right, #00e9a1, #ffa900, #ff0e69);
+            color: white;
+            text-align: center;
+            margin: 0;
+            padding: 0;
         }
 
-        .search-input {
-            width: 300px;
+        /* Navbar */
+        .navbar {
+            background: black;
             padding: 10px;
-            border: 2px solid #000;
-            border-radius: 20px;
-            font-size: 16px;
-            outline: none;
+            position: fixed;
+            width: 100%;
+            top: 0;
+            left: 0;
+            z-index: 1000;
         }
 
-        .search-button {
-            margin-left: -40px;
-            background: none;
-            border: none;
+        .navbar a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 1.2rem;
+            transition: color 0.3s;
+        }
+
+        .navbar a:hover {
+            color: #ffa900;
+        }
+
+        /* Content with gap */
+        .content {
+            margin-top: 100px; /* Prevents content overlap */
+            padding-bottom: 100px; /* Space above footer */
+        }
+
+        h1, h2 {
+            margin-bottom: 20px;
+        }
+
+        /* Footer Design */
+        footer {
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            background: rgba(0, 0, 0, 0.8);
+            color: white;
+            text-align: center;
+            padding: 15px 0;
+        }
+
+        /* Social Media Icons */
+        .social-icons a {
+            margin: 0 10px;
+            color: white;
+            font-size: 24px;
+            transition: color 0.3s ease;
+        }
+
+        .social-icons .youtube:hover {
+            color: #FF0000; /* YouTube Red */
+        }
+
+        .social-icons .twitter:hover {
+            color: #1DA1F2; /* Twitter Blue */
+        }
+
+        .social-icons .snapchat:hover {
+            color: #FFFC00; /* Snapchat Yellow */
+        }
+
+        /* Image Zoom Animation */
+        .image-box {
+            display: inline-block;
+            margin: 20px;
+            width: 30%;
+            transition: transform 0.3s ease-in-out;
             cursor: pointer;
-            outline: none;
         }
 
-        .search-icon {
-            font-size: 18px;
-            color: #000;
+        .image-box:hover {
+            transform: scale(1.1);
         }
     </style>
 </head>
 
 <body>
-    <div class="search-bar">
-        <input type="text" class="search-input" placeholder="Search...">
-        <button class="search-button">
-            <span class="search-icon">&#128269;</span>
-        </button>
+
+    <!-- Navbar -->
+    <div class="navbar">
+        <a href="#home"><i class="fa fa-globe"></i> Web Updates</a>
+        <a href="#services"><i class="fa fa-comments"></i> Feedback</a>
+        <a href="#contact"><i class="fa fa-money"></i> Profit</a>
     </div>
+
+    <!-- Content Section -->
+    <div class="content">
+        <h1>Welcome to Our Website!</h1>
+        <h2>About Us</h2>
+        <p>Hello! I'm Arun, a curious learner with a passion for design and technology. This website is a reflection of my journey in UI/UX design.</p>
+
+        <hr>
+
+        <h2>Our Services</h2>
+        <div class="container">
+            <div class="image-box">
+                <img src="445.gif" width="100%" alt="Service 1">
+                <p>“Even if I knew that tomorrow the world would go to pieces, I would still plant my apple tree.”</p>
+            </div>
+            <div class="image-box">
+                <img src="166.gif" width="100%" alt="Service 2">
+                <p>“There is nothing impossible to him who will try.”</p>
+            </div>
+            <div class="image-box">
+                <img src="188.gif" width="100%" alt="Service 3">
+                <p>“Perfection is not attainable, but if we chase perfection, we can catch excellence.”</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer with Social Media Links -->
+    <footer>
+        <p>© 2025 Arun. All Rights Reserved.</p>
+        <div class="social-icons">
+            <a href="https://www.youtube.com" target="_blank" class="youtube"><i class="fa fa-youtube"></i></a>
+            <a href="https://twitter.com" target="_blank" class="twitter"><i class="fa fa-twitter"></i></a>
+            <a href="https://www.snapchat.com" target="_blank" class="snapchat"><i class="fa fa-snapchat"></i></a>
+        </div>
+    </footer>
+
+    <!-- JavaScript for Animation -->
+    <script>
+        window.onload = function() {
+            document.body.style.opacity = "1";
+        };
+    </script>
+
 </body>
-
 </html>
-
-
-
-
-
-
-
-
-
-
-
-
-<div id="footer"> &copy;2025 ALL RIGHTS REVERSED</div>
-<style type="text/css">
-    * {
-        margin: 0;
-        padding: 0;
-
-
-
-
-
-    }
-
-    ul {
-
-        background-color: red;
-        position: sticky;
-        top: 0;
-        background-image: background-image: linear-gradient(to bottom, #00e9a1, #48eb8b, #6cec73, #8beb5a, #a9ea3e, #ccd60f, #e8c100, #ffa900, #ff7232, #ff0e69, #ff00ac, #cf01f3);
-
-
-    }
-
-    li {
-
-        display: inline-block;
-        padding: 20px;
-    }
-
-
-
-
-    a {
-
-        color: aquamarine;
-
-    }
-
-    #topimg {
-
-        width: 100%;
-    }
-
-    #topheader {
-
-        background-color: purple;
-        color: white;
-        padding: 10px;
-        text-align: center;
-        background-image: linear-gradient(to left bottom, #ff1399, #ff3c62, #ff6f2f, #e69900, #babb00, #c1b900, #c7b600, #cdb400, #ff8803, #ff424d, #ff0098, #e400ef);
-        z-index: 677868;
-
-    }
-
-    h1 {
-
-        text-align: center;
-
-    }
-
-    p {
-
-
-
-
-        padding: 50px;
-    }
-
-    #txtoning {
-
-        position: absolute;
-        top: 50%;
-        left: 40%;
-        font: 40px;
-    }
-
-    .all-services {
-        width: 200px;
-        padding: 10px;
-        background-color: whitesmoke;
-        display: inline-block;
-        margin-left: 30px;
-        transition: all 1s;
-
-
-
-    }
-
-    .all-services:hover {
-
-        background-color: black;
-        color: white;
-
-    }
-
-    h3 {
-        textalign: center;
-
-
-
-    }
-
-
-
-    .serimgs {
-
-
-        width: 100%;
-        height: 400px;
-
-
-    }
-
-    .sertxt {
-
-        text-align: j;
-
-    }
-
-    #footer {
-
-        background-color: black;
-        color: white;
-        ,
-        padding: 10px;
-        background-image:
-
-
-    }
-
-    div {
-        text-align: justify;
-
-
-
-
-
-    }
-
-    h2 {
-
-        text-align: center;
-    }
-
-    <style type="text/css">* {
-        margin: 0px;
-        padding: 0px;
-        font-family: 'Single Day', cursive;
-
-
-
-
-
-    }
-
-    #header {
-        width: "100%";
-    }
-
-    h1 {
-        text-align: center;
-        margin-top: 50px;
-
-
-
-    }
-
-    #footer> {
-        color: background-image: linear-gradient(to bottom, #00e9a1, #48eb8b, #6cec73, #8beb5a, #a9ea3e, #ccd60f, #e8c100, #ffa900, #ff7232, #ff0e69, #ff00ac, #cf01f3);
-        ;
-
-
-
-
-
-
-    }
-
-    #gul:hover {
-        background-color: whitesmoke;
-        color: white;
-
-
-
-
-
-
-    }
-
-    #pal {}
-
-
-    #pal:hover {
-        background-color: pink;
-        color: orange;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    }
-
-    #about {
-        padding: 50px;
-        line-height: 50px;
-
-
-
-
-    }
-
-    #footer {
-        background-color: black;
-        color: white;
-        padding: 40px;
-
-
-
-
-    }
-
-    img {
-        width: 100%;
-
-    }
-
-    .all-services {
-        width: 400px;
-        padding: 10px;
-        background-color: whitesmoke;
-        display: inline-block;
-        margin-left: 30px;
-        transition: all 1s;
-
-
-
-    }
-
-    .all-services:hover {
-
-        background-color: pink;
-        color: white;
-    }
-
-    .image-box:hover {
-
-        background-color: purple;
-        transition: all 1s;
-        color: pink;
-
-    }
-
-    .aboutus {
-
-
-        background-color: black;
-        transition: all 1s;
-        color: orange;
-    }
-
-    .aboutus:hover {
-        background-color: orange;
-        color: black;
-    }
-
-    #footer>a {
-        color: white;
-    }
-
-    i {
-        margin-left: 20px;
-    }
-
-    a:hover {
-        color: royalblue;
-    }
-
-    h1 {
-        box-shadow: blue;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    }
-
-    h2 {
-        text-decoration: underline;
-    }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    </body></html><div class="container"><div class="image-box"><img src=".jpg" alt="Image 1"><p>Text for Image 1</p></div><div class="image-box"><img src=.jpg" alt=" Image 2">
- <p>Text for Image 2</p></div><div class="image-box"><img src="445.gif" alt="Image 3"><p>Text for Image 3</p></div></div></body></html
